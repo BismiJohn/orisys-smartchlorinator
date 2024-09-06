@@ -1,0 +1,18 @@
+{
+    "name": "orisys/smartchlorinator",
+    "description": "A package for smart chlorinator management.",
+    "autoload": {
+        "psr-4": {
+            "Orisys\\SmartChlorinator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+
+            "providers":[
+                "orisys\\smartchlorinator\\SmartChlorinatorServiceProvider"
+            ]
+
+        }
+    }
+}
